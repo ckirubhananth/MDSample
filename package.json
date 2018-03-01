@@ -1,0 +1,17 @@
+{
+  "name": "md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@material/fab": "^0.31.0",
+    "@material/select": "^0.31.0",
+    "material-design-lite": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
