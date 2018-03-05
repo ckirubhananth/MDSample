@@ -12,6 +12,9 @@ import {MatMomentDateModule} from '@angular/material-moment-adapter';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatTableModule} from '@angular/material/table';
+import {MatRadioModule} from '@angular/material/radio';
 
 import { AppComponent } from './app.component';
 
@@ -34,9 +37,16 @@ import { AppComponent } from './app.component';
     MatFormFieldModule,
     MatInputModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCheckboxModule,
+    MatTableModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
+
+
+
 export class AppModule { }

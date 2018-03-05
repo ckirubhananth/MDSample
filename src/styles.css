@@ -17,35 +17,34 @@ html{
 }
 
 
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+
+
+.container > div {
+  width: 33%;
 }
-
-.clearfix:after {
-   visibility: hidden;
-   display: block;
-   font-size: 0;
-   content: " ";
-   clear: both;
-   height: 0;
-   }
-.clearfix { display: inline-block; }
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-
-.row {
-  margin: 0 auto;
-  max-width: 1000px;
-  width: 100%;
-}
-
-.column {
+.col1 {
   float: left;
-  padding: 0 15px;
+}
+.col2 {
+  float: right;
+}
+.col3 {
+  margin: auto;
 }
 
-.span_4 {
-  width: 33.3333%;
+.box {
+	width: 33%;
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+}
+
+
+span {
+font-size: smaller
+}
+
+div{
+  padding:0;
+  margin:0;
 }
